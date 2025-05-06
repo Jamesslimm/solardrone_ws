@@ -1,0 +1,1 @@
+/home/james/realsense_ws/src/yolov8_msgs/msg/InferenceResult.msg

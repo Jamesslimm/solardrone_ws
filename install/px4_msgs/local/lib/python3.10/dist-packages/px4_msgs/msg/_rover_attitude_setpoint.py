@@ -1,0 +1,1 @@
+/home/james/realsense_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_rover_attitude_setpoint.py

@@ -1,0 +1,197 @@
+[0.399s] Invoking command in '/home/james/realsense_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/realsense_ws/src/yolov8_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/realsense_ws/install/yolov8_msgs
+[0.429s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.675s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.702s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.761s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.767s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.780s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.826s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.380s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.314s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.360s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.360s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.414s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.444s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.446s] -- Added test 'lint_cmake' to check CMake code style
+[2.448s] -- Added test 'xmllint' to check XML markup files
+[2.454s] -- Configuring done
+[2.528s] -- Generating done
+[2.535s] -- Build files have been written to: /home/james/realsense_ws/build/yolov8_msgs
+[2.547s] Invoked command in '/home/james/realsense_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake /home/james/realsense_ws/src/yolov8_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/realsense_ws/install/yolov8_msgs
+[2.551s] Invoking command in '/home/james/realsense_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/realsense_ws/build/yolov8_msgs -- -j20 -l20
+[2.620s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_generator_c[0m
+[2.638s] [  2%] Built target yolov8_msgs__cpp
+[2.647s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[2.658s] [ 12%] Built target ament_cmake_python_symlink_yolov8_msgs
+[2.658s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.661s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.661s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_cpp[0m
+[2.666s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_c[0m
+[2.667s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.672s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_c[0m
+[2.685s] [ 15%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/inference_result__type_support.cpp.o[0m
+[2.685s] [ 17%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o[0m
+[2.685s] [ 20%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp.o[0m
+[2.686s] [ 23%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o[0m
+[2.691s] [ 25%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/inference_result__type_support.cpp.o[0m
+[2.691s] [ 28%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/yolov8_inference__type_support.cpp.o[0m
+[2.692s] [ 38%] Built target yolov8_msgs__rosidl_typesupport_c
+[2.695s] [ 48%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[2.697s] [ 51%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/inference_result__type_support_c.cpp.o[0m
+[2.699s] [ 53%] [32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/yolov8_inference__type_support_c.cpp.o[0m
+[2.870s] [ 56%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_cpp.so[0m
+[2.895s] [ 58%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.901s] [ 61%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.907s] [ 64%] [32m[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.953s] [ 66%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[3.050s] [ 69%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[3.054s] [ 71%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[3.094s] [ 74%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[3.109s] running egg_info
+[3.136s] [ 74%] Built target yolov8_msgs
+[3.143s] writing yolov8_msgs.egg-info/PKG-INFO
+[3.143s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[3.143s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[3.170s] [ 76%] Built target yolov8_msgs__py
+[3.190s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_generator_py[0m
+[3.220s] [ 79%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_inference_result_s.c.o[0m
+[3.220s] [ 82%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_yolov8_inference_s.c.o[0m
+[3.237s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[3.239s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[3.279s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so[0m
+[3.291s] [ 84%] Built target ament_cmake_python_build_yolov8_msgs_egg
+[3.356s] [ 84%] Built target yolov8_msgs__rosidl_generator_py
+[3.374s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.375s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.378s] [35m[1mConsolidate compiler generated dependencies of target yolov8_msgs__rosidl_typesupport_c__pyext[0m
+[3.397s] [ 87%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.400s] [ 89%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.400s] [ 92%] [32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.424s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.426s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.426s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.496s] [100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.496s] [100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[3.500s] [100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[3.519s] Invoked command in '/home/james/realsense_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/realsense_ws/build/yolov8_msgs -- -j20 -l20
+[3.677s] Invoking command in '/home/james/realsense_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/realsense_ws/build/yolov8_msgs
+[3.690s] -- Install configuration: ""
+[3.691s] -- Execute custom install script
+[3.691s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[3.692s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h
+[3.692s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h
+[3.692s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h
+[3.692s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h
+[3.692s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h
+[3.693s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h
+[3.693s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h
+[3.693s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.693s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h
+[3.694s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[3.694s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[3.694s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[3.694s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[3.694s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.695s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp
+[3.695s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp
+[3.695s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp
+[3.695s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp
+[3.695s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp
+[3.696s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp
+[3.696s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp
+[3.696s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp
+[3.696s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[3.696s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[3.697s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.697s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[3.698s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[3.698s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.698s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[3.698s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[3.699s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[3.700s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[3.700s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.700s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.700s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.701s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.701s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py
+[3.701s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result.py
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result_s.c
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference.py
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference_s.c
+[3.702s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg
+[3.703s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg
+[3.704s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[3.704s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[3.704s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[3.705s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[3.705s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[3.705s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[3.705s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[3.706s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[3.706s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[3.706s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[3.706s] -- Symlinking: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[3.719s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[3.719s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[3.719s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.720s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.720s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.720s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.720s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.721s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.721s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[3.721s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[3.721s] -- Up-to-date symlink: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[3.722s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[3.723s] -- Installing: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[3.724s] -- Set runtime path of "/home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.726s] -- Installing: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.727s] -- Set runtime path of "/home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.727s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[3.728s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[3.729s] -- Installing: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[3.729s] -- Set runtime path of "/home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.729s] -- Installing: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[3.730s] -- Set runtime path of "/home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so" to ""
+[3.795s] Listing '/home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...
+[3.795s] Compiling '/home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py'...
+[3.795s] Listing '/home/james/realsense_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...
+[3.802s] -- Installing: /home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so
+[3.803s] -- Set runtime path of "/home/james/realsense_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so" to ""
+[3.803s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake
+[3.804s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.804s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.804s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.805s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake
+[3.805s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.805s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.806s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.806s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.806s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[3.806s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.807s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.807s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.807s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[3.807s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.808s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake
+[3.808s] -- Up-to-date: /home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.810s] Invoked command in '/home/james/realsense_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/realsense_ws/build/yolov8_msgs

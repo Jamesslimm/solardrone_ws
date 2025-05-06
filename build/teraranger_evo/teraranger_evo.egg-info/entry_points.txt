@@ -1,0 +1,2 @@
+[console_scripts]
+teraranger_subscriber = teraranger_evo.teraranger_evo_tower_x4:main

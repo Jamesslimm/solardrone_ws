@@ -1,0 +1,51 @@
+from std_msgs.msg import Float64, Float32MultiArray
+
+
+in def init:
+
+        # Teraranger LIDAR Subscription
+        # Create subscriber
+        self.create_subscription(
+            Float32MultiArray,
+            '/teraranger_evo/distances',
+            self.teraranger_callback,
+            10
+        )
+        
+        # Define sensor positions [front, right, back, left]
+        self.directions = ['front', 'right', 'back', 'left']
+        self.processed_distances = []
+        
+        # Max distance when sensor returns inf (in meters)
+        self.lidar_max_distance = 60.0
+        
+            def teraranger_callback(self, msg):
+            # Process each distance value            
+            for i, distance in enumerate(msg.data):
+                direction = self.directions[i]
+                
+                # Handle special cases
+                if distance == float('-inf'):
+                    # Object too close - set to 0
+                    self.processed_distances.append(0.0)
+                    self.get_logger().debug(f"{direction}: Below minimum range (-inf), setting to 0.0m")
+                elif distance == float('inf'):
+                    # Object too far - set to max distance
+                    self.processed_distances.append(self.lidar_max_distance)
+                    self.get_logger().debug(f"{direction}: Above maximum range (inf), setting to {self.lidar_max_distance}m")
+                elif distance != distance:  # Check for NaN
+                    # Invalid reading - set to 0
+                    self.processed_distances.append(0.0)
+                    self.get_logger().debug(f"{direction}: Invalid reading (nan), setting to 0.0m")
+                else:
+                    # Normal reading
+                    self.processed_distances.append(distance)
+                    self.get_logger().debug(f"{direction}: Valid reading: {distance:.3f}m")
+            
+            # Log the processed distances
+            self.get_logger().info(
+                f"Processed distances - Front: {self.processed_distances[0]:.2f}m, "
+                f"Right: {self.processed_distances[1]:.2f}m, "
+                f"Back: {self.processed_distances[2]:.2f}m, "
+                f"Left: {self.processed_distances[3]:.2f}m"
+            )

@@ -1,0 +1,3 @@
+[console_scripts]
+realsense_subscriber = realsense.realsense_subscriber_node:main
+teraranger_subscriber = realsense.teraranger_evo_tower_x4:main

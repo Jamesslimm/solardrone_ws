@@ -1,0 +1,30 @@
+[0.486s] Invoking command in '/home/james/realsense_ws/src/realsense': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realsense build --build-base /home/james/realsense_ws/build/realsense/build install --record /home/james/realsense_ws/build/realsense/install.log --single-version-externally-managed install_data
+[0.591s] /home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.591s]   warnings.warn(msg)
+[0.653s] running egg_info
+[0.663s] writing ../../build/realsense/realsense.egg-info/PKG-INFO
+[0.663s] writing dependency_links to ../../build/realsense/realsense.egg-info/dependency_links.txt
+[0.663s] writing entry points to ../../build/realsense/realsense.egg-info/entry_points.txt
+[0.663s] writing requirements to ../../build/realsense/realsense.egg-info/requires.txt
+[0.663s] writing top-level names to ../../build/realsense/realsense.egg-info/top_level.txt
+[0.684s] reading manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.685s] writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.685s] running build
+[0.685s] running build_py
+[0.685s] copying realsense/__init__.py -> /home/james/realsense_ws/build/realsense/build/lib/realsense
+[0.685s] copying realsense/realsense_subscriber_node.py -> /home/james/realsense_ws/build/realsense/build/lib/realsense
+[0.685s] running install
+[0.688s] running install_lib
+[0.698s] copying /home/james/realsense_ws/build/realsense/build/lib/realsense/realsense_subscriber_node.py -> /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense
+[0.699s] byte-compiling /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense/realsense_subscriber_node.py to realsense_subscriber_node.cpython-310.pyc
+[0.699s] running install_data
+[0.699s] copying resource/realsense -> /home/james/realsense_ws/install/realsense/share/ament_index/resource_index/packages
+[0.699s] copying package.xml -> /home/james/realsense_ws/install/realsense/share/realsense
+[0.699s] copying launch/realsense.launch.py -> /home/james/realsense_ws/install/realsense/share/realsense/launch
+[0.700s] running install_egg_info
+[0.710s] removing '/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense-0.0.0-py3.10.egg-info' (and everything under it)
+[0.710s] Copying ../../build/realsense/realsense.egg-info to /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense-0.0.0-py3.10.egg-info
+[0.711s] running install_scripts
+[0.798s] Installing realsense_subscriber script to /home/james/realsense_ws/install/realsense/lib/realsense
+[0.798s] writing list of installed files to '/home/james/realsense_ws/build/realsense/install.log'
+[0.813s] Invoked command in '/home/james/realsense_ws/src/realsense' returned '0': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realsense build --build-base /home/james/realsense_ws/build/realsense/build install --record /home/james/realsense_ws/build/realsense/install.log --single-version-externally-managed install_data

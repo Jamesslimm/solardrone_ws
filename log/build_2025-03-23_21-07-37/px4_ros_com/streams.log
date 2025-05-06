@@ -1,0 +1,137 @@
+[0.019s] Invoking command in '/home/james/realsense_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/realsense_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/realsense_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/realsense_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/realsense_ws/install/px4_ros_com
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.401s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.553s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.249s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.399s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.474s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.551s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.568s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.588s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.684s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.705s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.709s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.759s] -- Found px4_msgs: 2.0.1 (/home/james/realsense_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.783s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.889s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.901s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.976s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.005s] -- Looking for pthread.h
+[2.181s] -- Looking for pthread.h - found
+[2.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.348s] -- Found Threads: TRUE  
+[2.456s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.501s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[2.545s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.776s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.781s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.782s] -- Configured cppcheck include dirs: /home/james/realsense_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/james/realsense_ws/src/px4_ros_com/include/px4_ros_com>
+[2.782s] -- Configured cppcheck exclude dirs and/or files: 
+[2.788s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.789s] -- Configured cpplint exclude dirs and/or files: 
+[2.790s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.792s] -- Added test 'lint_cmake' to check CMake code style
+[2.793s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.798s] -- Added test 'uncrustify' to check C / C++ code style
+[2.798s] -- Configured uncrustify additional arguments: 
+[2.799s] -- Added test 'xmllint' to check XML markup files
+[2.803s] -- Configuring done
+[2.840s] -- Generating done
+[2.843s] -- Build files have been written to: /home/james/realsense_ws/build/px4_ros_com
+[2.857s] Invoked command in '/home/james/realsense_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/realsense_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/realsense_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/james/realsense_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/james/realsense_ws/install/px4_ros_com
+[2.860s] Invoking command in '/home/james/realsense_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/realsense_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/realsense_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/realsense_ws/build/px4_ros_com -- -j20 -l20
+[2.957s] [  8%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[2.958s] [ 16%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[2.960s] [ 25%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[2.961s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[2.963s] [ 41%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[2.963s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[2.980s] [ 50%] Built target ament_cmake_python_symlink_px4_ros_com
+[3.442s] running egg_info
+[3.471s] creating px4_ros_com.egg-info
+[3.471s] writing px4_ros_com.egg-info/PKG-INFO
+[3.472s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[3.472s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[3.472s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.553s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.555s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.608s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[11.523s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[11.967s] [ 58%] Built target debug_vect_advertiser
+[13.216s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[13.700s] [ 66%] Built target offboard_control
+[14.430s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[14.890s] [ 75%] Built target offboard_control_srv
+[16.559s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[17.000s] [ 83%] Built target frame_transforms
+[17.911s] [ 91%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[17.977s] [100%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[18.548s] [100%] Built target sensor_combined_listener
+[18.583s] [100%] Built target vehicle_gps_position_listener
+[18.600s] Invoked command in '/home/james/realsense_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/realsense_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/realsense_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/james/realsense_ws/build/px4_ros_com -- -j20 -l20
+[18.697s] Invoking command in '/home/james/realsense_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/realsense_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/realsense_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/realsense_ws/build/px4_ros_com
+[18.714s] -- Install configuration: ""
+[18.715s] -- Execute custom install script
+[18.716s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[18.734s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[18.751s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[18.766s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[18.783s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[18.797s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[18.812s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[18.831s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[18.847s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[18.861s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[18.875s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[18.889s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[18.906s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[18.918s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[18.931s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[18.945s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[18.959s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[18.975s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[18.989s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[19.006s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[19.021s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[19.036s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[19.050s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[19.062s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[19.076s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[19.089s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[19.102s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[19.116s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[19.134s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[19.147s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[19.161s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[19.175s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[19.189s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[19.204s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[19.216s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[19.231s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.244s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[19.259s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.274s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[19.287s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[19.302s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[19.317s] -- Symlinking: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[19.334s] -- Installing: /home/james/realsense_ws/install/px4_ros_com/lib/libframe_transforms.so
+[19.339s] -- Set runtime path of "/home/james/realsense_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[19.404s] Listing '/home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[19.405s] Compiling '/home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[19.405s] Compiling '/home/james/realsense_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[19.412s] -- Installing: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[19.413s] -- Installing: /home/james/realsense_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[19.417s] Invoked command in '/home/james/realsense_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/realsense_ws/install/px4_msgs:/home/james/turtlebot3_ws/install/turtlebot3:/home/james/turtlebot3_ws/install/turtlebot3_simulations:/home/james/turtlebot3_ws/install/turtlebot3_bringup:/home/james/turtlebot3_ws/install/turtlebot3_node:/home/james/turtlebot3_ws/install/turtlebot3_navigation2:/home/james/turtlebot3_ws/install/turtlebot3_fake_node:/home/james/turtlebot3_ws/install/turtlebot3_msgs:/home/james/turtlebot3_ws/install/turtlebot3_gazebo:/home/james/turtlebot3_ws/install/turtlebot3_description:/home/james/turtlebot3_ws/install/turtlebot3_cartographer:/home/james/turtlebot3_ws/install/dynamixel_sdk_examples:/home/james/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/james/turtlebot3_ws/install/dynamixel_sdk:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/james/realsense_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/realsense_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/james/realsense_ws/build/px4_ros_com

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/teraranger_evo
+teraranger_evo/__init__.py
+teraranger_evo/teraranger_evo_tower_x4.py
+teraranger_evo.egg-info/PKG-INFO
+teraranger_evo.egg-info/SOURCES.txt
+teraranger_evo.egg-info/dependency_links.txt
+teraranger_evo.egg-info/entry_points.txt
+teraranger_evo.egg-info/requires.txt
+teraranger_evo.egg-info/top_level.txt
+teraranger_evo.egg-info/zip-safe

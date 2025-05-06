@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing realsense.egg-info/PKG-INFO
+writing dependency_links to realsense.egg-info/dependency_links.txt
+writing entry points to realsense.egg-info/entry_points.txt
+writing requirements to realsense.egg-info/requires.txt
+writing top-level names to realsense.egg-info/top_level.txt
+reading manifest file 'realsense.egg-info/SOURCES.txt'
+writing manifest file 'realsense.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense.egg-link (link to .)
+Installing realsense_subscriber script to /home/james/realsense_ws/install/realsense/lib/realsense
+
+Installed /home/james/realsense_ws/build/realsense
+running symlink_data
+symbolically linking /home/james/realsense_ws/build/realsense/resource/realsense -> /home/james/realsense_ws/install/realsense/share/ament_index/resource_index/packages
+symbolically linking /home/james/realsense_ws/build/realsense/package.xml -> /home/james/realsense_ws/install/realsense/share/realsense
+symbolically linking /home/james/realsense_ws/build/realsense/launch/realsense.launch.py -> /home/james/realsense_ws/install/realsense/share/realsense/launch

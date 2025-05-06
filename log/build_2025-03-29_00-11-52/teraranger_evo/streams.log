@@ -1,0 +1,37 @@
+[0.799s] Invoking command in '/home/james/realsense_ws/build/teraranger_evo': PYTHONPATH=/home/james/realsense_ws/build/teraranger_evo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/teraranger_evo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/realsense_ws/build/teraranger_evo/build --no-deps symlink_data
+[0.906s] /home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.906s]   warnings.warn(msg)
+[1.018s] running develop
+[1.018s] /home/james/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.018s] !!
+[1.018s] 
+[1.018s]         ********************************************************************************
+[1.018s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.018s]         Instead, use pypa/build, pypa/installer or other
+[1.018s]         standards-based tools.
+[1.018s] 
+[1.018s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.018s]         ********************************************************************************
+[1.018s] 
+[1.018s] !!
+[1.018s]   easy_install.initialize_options(self)
+[1.168s] running egg_info
+[1.179s] creating teraranger_evo.egg-info
+[1.179s] writing teraranger_evo.egg-info/PKG-INFO
+[1.179s] writing dependency_links to teraranger_evo.egg-info/dependency_links.txt
+[1.179s] writing entry points to teraranger_evo.egg-info/entry_points.txt
+[1.180s] writing requirements to teraranger_evo.egg-info/requires.txt
+[1.180s] writing top-level names to teraranger_evo.egg-info/top_level.txt
+[1.180s] writing manifest file 'teraranger_evo.egg-info/SOURCES.txt'
+[1.203s] reading manifest file 'teraranger_evo.egg-info/SOURCES.txt'
+[1.204s] writing manifest file 'teraranger_evo.egg-info/SOURCES.txt'
+[1.221s] running build_ext
+[1.221s] Creating /home/james/realsense_ws/install/teraranger_evo/lib/python3.10/site-packages/teraranger-evo.egg-link (link to .)
+[1.221s] Installing teraranger_subscriber script to /home/james/realsense_ws/install/teraranger_evo/lib/teraranger_evo
+[1.222s] 
+[1.222s] Installed /home/james/realsense_ws/build/teraranger_evo
+[1.222s] running symlink_data
+[1.222s] creating /home/james/realsense_ws/install/teraranger_evo/share/ament_index/resource_index/packages
+[1.222s] symbolically linking /home/james/realsense_ws/build/teraranger_evo/resource/teraranger_evo -> /home/james/realsense_ws/install/teraranger_evo/share/ament_index/resource_index/packages
+[1.222s] symbolically linking /home/james/realsense_ws/build/teraranger_evo/package.xml -> /home/james/realsense_ws/install/teraranger_evo/share/teraranger_evo
+[1.244s] Invoked command in '/home/james/realsense_ws/build/teraranger_evo' returned '0': PYTHONPATH=/home/james/realsense_ws/build/teraranger_evo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/teraranger_evo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/realsense_ws/build/teraranger_evo/build --no-deps symlink_data

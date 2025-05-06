@@ -1,0 +1,201 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fbc40ca4fa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbc40d9dcf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbc40d9dcf0>>, mixin_verb=('build',))
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.148s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/james/realsense_ws'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense' with type 'ros.ament_python' and name 'realsense'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.181s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/james/turtlebot3_ws/install
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 494 installed packages in /opt/ros/humble
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'realsense' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'realsense' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/realsense_ws/build/realsense', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/realsense_ws/install/realsense', 'merge_install': False, 'path': '/home/james/realsense_ws/src/realsense', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/realsense_ws/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/realsense_ws/install/yolov8_msgs', 'merge_install': False, 'path': '/home/james/realsense_ws/src/yolov8_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.250s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/realsense_ws/src/realsense' with build type 'ament_python'
+[0.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense', 'ament_prefix_path')
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/realsense/share/realsense/hook/ament_prefix_path.ps1'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/realsense_ws/install/realsense/share/realsense/hook/ament_prefix_path.dsv'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/realsense/share/realsense/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/realsense_ws/src/yolov8_msgs' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/realsense_ws/src/yolov8_msgs'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/realsense_ws/src/realsense'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/realsense_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/realsense_ws/build/yolov8_msgs -- -j20 -l20
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/realsense_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --build /home/james/realsense_ws/build/yolov8_msgs -- -j20 -l20
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/realsense_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/realsense_ws/build/yolov8_msgs
+[0.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/realsense_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/james/turtlebot3_ws/install/turtlebot3_teleop:/home/james/turtlebot3_ws/install/turtlebot3_example:/home/james/turtlebot3_ws/install/follow_waypoints:/opt/ros/humble /usr/bin/cmake --install /home/james/realsense_ws/build/yolov8_msgs
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs' for CMake module files
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs' for CMake config files
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/lib'
+[0.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/bin'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/lib/python3.10/site-packages'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/bin'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[0.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/realsense_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/realsense_ws/build/realsense': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/james/realsense_ws/build/realsense/build
+[1.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs' for CMake module files
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs' for CMake config files
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/lib'
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[1.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/bin'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/lib/python3.10/site-packages'
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/yolov8_msgs/bin'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[1.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/realsense_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/realsense_ws/build/realsense' returned '0': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/james/realsense_ws/build/realsense/build
+[1.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/realsense_ws/src/realsense': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realsense build --build-base /home/james/realsense_ws/build/realsense/build install --record /home/james/realsense_ws/build/realsense/install.log --single-version-externally-managed install_data --force
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/realsense' for CMake module files
+[1.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/realsense_ws/src/realsense' returned '0': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realsense build --build-base /home/james/realsense_ws/build/realsense/build install --record /home/james/realsense_ws/build/realsense/install.log --single-version-externally-managed install_data --force
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/realsense' for CMake config files
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/realsense/lib'
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/realsense/bin'
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/realsense/lib/pkgconfig/realsense.pc'
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages'
+[1.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense', 'pythonpath')
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/realsense/share/realsense/hook/pythonpath.ps1'
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/realsense_ws/install/realsense/share/realsense/hook/pythonpath.dsv'
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/realsense_ws/install/realsense/share/realsense/hook/pythonpath.sh'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/james/realsense_ws/install/realsense/bin'
+[1.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense)
+[1.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/realsense/share/realsense/package.ps1'
+[1.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/realsense_ws/install/realsense/share/realsense/package.dsv'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/realsense/share/realsense/package.sh'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/realsense/share/realsense/package.bash'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/realsense_ws/install/realsense/share/realsense/package.zsh'
+[1.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/realsense_ws/install/realsense/share/colcon-core/packages/realsense)
+[1.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.808s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.813s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.813s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.813s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.824s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/realsense_ws/install/local_setup.ps1'
+[1.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/james/realsense_ws/install/_local_setup_util_ps1.py'
+[1.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/realsense_ws/install/setup.ps1'
+[1.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/realsense_ws/install/local_setup.sh'
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/james/realsense_ws/install/_local_setup_util_sh.py'
+[1.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/realsense_ws/install/setup.sh'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/realsense_ws/install/local_setup.bash'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/realsense_ws/install/setup.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/realsense_ws/install/local_setup.zsh'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/realsense_ws/install/setup.zsh'

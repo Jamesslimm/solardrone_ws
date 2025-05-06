@@ -1,0 +1,1 @@
+/home/james/realsense_ws/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_inference_result.py

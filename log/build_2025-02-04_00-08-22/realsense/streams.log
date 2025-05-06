@@ -1,0 +1,35 @@
+[0.556s] Invoking command in '/home/james/realsense_ws/src/realsense': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realsense build --build-base /home/james/realsense_ws/build/realsense/build install --record /home/james/realsense_ws/build/realsense/install.log --single-version-externally-managed install_data
+[0.665s] /home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.665s]   warnings.warn(msg)
+[0.726s] running egg_info
+[0.736s] creating ../../build/realsense/realsense.egg-info
+[0.736s] writing ../../build/realsense/realsense.egg-info/PKG-INFO
+[0.737s] writing dependency_links to ../../build/realsense/realsense.egg-info/dependency_links.txt
+[0.737s] writing entry points to ../../build/realsense/realsense.egg-info/entry_points.txt
+[0.737s] writing requirements to ../../build/realsense/realsense.egg-info/requires.txt
+[0.737s] writing top-level names to ../../build/realsense/realsense.egg-info/top_level.txt
+[0.737s] writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.758s] reading manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.758s] writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.758s] running build
+[0.758s] running build_py
+[0.758s] creating /home/james/realsense_ws/build/realsense/build/lib/realsense
+[0.759s] copying realsense/__init__.py -> /home/james/realsense_ws/build/realsense/build/lib/realsense
+[0.759s] copying realsense/realsense_subscriber_node.py -> /home/james/realsense_ws/build/realsense/build/lib/realsense
+[0.759s] running install
+[0.762s] running install_lib
+[0.772s] creating /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense
+[0.772s] copying /home/james/realsense_ws/build/realsense/build/lib/realsense/__init__.py -> /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense
+[0.772s] copying /home/james/realsense_ws/build/realsense/build/lib/realsense/realsense_subscriber_node.py -> /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense
+[0.772s] byte-compiling /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense/__init__.py to __init__.cpython-310.pyc
+[0.772s] byte-compiling /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense/realsense_subscriber_node.py to realsense_subscriber_node.cpython-310.pyc
+[0.773s] running install_data
+[0.773s] creating /home/james/realsense_ws/install/realsense/share/ament_index/resource_index/packages
+[0.773s] copying resource/realsense -> /home/james/realsense_ws/install/realsense/share/ament_index/resource_index/packages
+[0.773s] copying package.xml -> /home/james/realsense_ws/install/realsense/share/realsense
+[0.773s] running install_egg_info
+[0.784s] Copying ../../build/realsense/realsense.egg-info to /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense-0.0.0-py3.10.egg-info
+[0.784s] running install_scripts
+[0.871s] Installing realsense_subscriber script to /home/james/realsense_ws/install/realsense/lib/realsense
+[0.871s] writing list of installed files to '/home/james/realsense_ws/build/realsense/install.log'
+[0.887s] Invoked command in '/home/james/realsense_ws/src/realsense' returned '0': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realsense build --build-base /home/james/realsense_ws/build/realsense/build install --record /home/james/realsense_ws/build/realsense/install.log --single-version-externally-managed install_data

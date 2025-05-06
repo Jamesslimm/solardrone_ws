@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing teraranger_evo.egg-info/PKG-INFO
+writing dependency_links to teraranger_evo.egg-info/dependency_links.txt
+writing entry points to teraranger_evo.egg-info/entry_points.txt
+writing requirements to teraranger_evo.egg-info/requires.txt
+writing top-level names to teraranger_evo.egg-info/top_level.txt
+reading manifest file 'teraranger_evo.egg-info/SOURCES.txt'
+writing manifest file 'teraranger_evo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/james/realsense_ws/install/teraranger_evo/lib/python3.10/site-packages/teraranger-evo.egg-link (link to .)
+Installing teraranger_subscriber script to /home/james/realsense_ws/install/teraranger_evo/lib/teraranger_evo
+
+Installed /home/james/realsense_ws/build/teraranger_evo
+running symlink_data

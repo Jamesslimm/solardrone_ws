@@ -1,0 +1,33 @@
+[0.802s] Invoking command in '/home/james/realsense_ws/build/realsense': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/realsense_ws/build/realsense/build --no-deps symlink_data
+[0.927s] /home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.927s]   warnings.warn(msg)
+[1.037s] running develop
+[1.037s] /home/james/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.037s] !!
+[1.037s] 
+[1.037s]         ********************************************************************************
+[1.037s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.037s]         Instead, use pypa/build, pypa/installer or other
+[1.037s]         standards-based tools.
+[1.037s] 
+[1.037s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.037s]         ********************************************************************************
+[1.037s] 
+[1.037s] !!
+[1.037s]   easy_install.initialize_options(self)
+[1.188s] running egg_info
+[1.199s] writing realsense.egg-info/PKG-INFO
+[1.199s] writing dependency_links to realsense.egg-info/dependency_links.txt
+[1.199s] writing entry points to realsense.egg-info/entry_points.txt
+[1.200s] writing requirements to realsense.egg-info/requires.txt
+[1.200s] writing top-level names to realsense.egg-info/top_level.txt
+[1.223s] reading manifest file 'realsense.egg-info/SOURCES.txt'
+[1.224s] writing manifest file 'realsense.egg-info/SOURCES.txt'
+[1.242s] running build_ext
+[1.243s] Creating /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense.egg-link (link to .)
+[1.243s] Installing realsense_subscriber script to /home/james/realsense_ws/install/realsense/lib/realsense
+[1.243s] Installing teraranger_subscriber script to /home/james/realsense_ws/install/realsense/lib/realsense
+[1.243s] 
+[1.243s] Installed /home/james/realsense_ws/build/realsense
+[1.243s] running symlink_data
+[1.265s] Invoked command in '/home/james/realsense_ws/build/realsense' returned '0': PYTHONPATH=/home/james/realsense_ws/build/realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/realsense_ws/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/james/realsense_ws/build/realsense/build --no-deps symlink_data

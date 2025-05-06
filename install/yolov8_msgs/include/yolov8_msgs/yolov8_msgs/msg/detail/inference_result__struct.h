@@ -1,0 +1,1 @@
+/home/james/realsense_ws/build/yolov8_msgs/rosidl_generator_c/yolov8_msgs/msg/detail/inference_result__struct.h

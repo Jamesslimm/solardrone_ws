@@ -1,0 +1,31 @@
+/home/james/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+/home/james/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing realsense.egg-info/PKG-INFO
+writing dependency_links to realsense.egg-info/dependency_links.txt
+writing entry points to realsense.egg-info/entry_points.txt
+writing requirements to realsense.egg-info/requires.txt
+writing top-level names to realsense.egg-info/top_level.txt
+reading manifest file 'realsense.egg-info/SOURCES.txt'
+writing manifest file 'realsense.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/james/realsense_ws/install/realsense/lib/python3.10/site-packages/realsense.egg-link (link to .)
+Installing realsense_subscriber script to /home/james/realsense_ws/install/realsense/lib/realsense
+Installing teraranger_subscriber script to /home/james/realsense_ws/install/realsense/lib/realsense
+
+Installed /home/james/realsense_ws/build/realsense
+running symlink_data

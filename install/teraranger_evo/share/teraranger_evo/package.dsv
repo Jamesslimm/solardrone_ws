@@ -1,0 +1,9 @@
+source;share/teraranger_evo/hook/pythonpath.ps1
+source;share/teraranger_evo/hook/pythonpath.dsv
+source;share/teraranger_evo/hook/pythonpath.sh
+source;share/teraranger_evo/hook/ament_prefix_path.ps1
+source;share/teraranger_evo/hook/ament_prefix_path.dsv
+source;share/teraranger_evo/hook/ament_prefix_path.sh
+source;../../build/teraranger_evo/share/teraranger_evo/hook/pythonpath_develop.ps1
+source;../../build/teraranger_evo/share/teraranger_evo/hook/pythonpath_develop.dsv
+source;../../build/teraranger_evo/share/teraranger_evo/hook/pythonpath_develop.sh
