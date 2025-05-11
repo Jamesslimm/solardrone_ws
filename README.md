@@ -64,6 +64,46 @@ ros2 run realsense realsense_subscriber
 
 ---
 
+## Workspace Setup Notes
+
+- After cloning the repository, ensure there are **five main packages** inside the `src` folder:
+
+  ```
+  px4_msgs
+  px4_ros_com
+  realsense
+  teraranger_evo
+  yolov8_msgs
+  ```
+
+- If the PX4 packages are missing, clone them using:
+
+  ```bash
+  cd ~/solardrone_ws/src
+  git clone https://github.com/PX4/px4_msgs.git
+  git clone https://github.com/PX4/px4_ros_com.git
+  ```
+
+- Once all **five packages** are in `src`, clean and rebuild the workspace:
+
+  ```bash
+  cd ~/solardrone_ws
+
+  # Remove previous build artifacts
+  rm -rf build install log
+
+  # Build the workspace
+  colcon build --symlink-install
+  ```
+
+- After building, don’t forget to source the workspace:
+
+  ```bash
+  source install/setup.bash
+  ```
+
+---
+
 ## Notes
 
 - Make sure each step is run in a **separate terminal**.
